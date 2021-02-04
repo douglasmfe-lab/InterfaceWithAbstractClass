@@ -2,15 +2,11 @@ package model.entities;
 
 import model.enums.Color;
 
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
 
 	private double widht;
 	private double height;
 	
-	public Rectangle() {
-		super();
-	}
-		
 	public Rectangle(Color color, double widht, double height) {
 		super(color);
 		this.widht = widht;
